@@ -128,6 +128,10 @@ export default function ContactPage() {
                     <p>Mahnoor Tabasam</p>
                   </div>
                   <div>
+                    <strong className="block text-[#500724] text-sm uppercase tracking-wider mb-1">Company</strong>
+                    <p>Mahnoor Tabasam LLC</p>
+                  </div>
+                  <div>
                     <strong className="block text-[#500724] text-sm uppercase tracking-wider mb-1">Phone</strong>
                     <a href="tel:+923003727228" className="hover:text-[#db2777] transition-colors">+923003727228</a>
                   </div>

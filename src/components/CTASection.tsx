@@ -22,6 +22,7 @@ export function Footer() {
             </p>
             <div className="text-[#831843] text-sm space-y-2">
               <p><strong>Name:</strong> Mahnoor Tabasam</p>
+              <p><strong>Company:</strong> Mahnoor Tabasam LLC</p>
               <p><strong>Phone:</strong> +923003727228</p>
               <p><strong>Email:</strong> mahnoor tabasam1994@gmail.com</p>
               <p><strong>Address:</strong> CBH-15, street no. 5 pathan colony Hyderabad.</p>
