@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -20,12 +21,22 @@ export function Footer() {
               Curating daily rituals with intention and quiet luxury. Every
               piece is chosen to elevate your sanctuary.
             </p>
-            <div className="text-[#831843] text-sm space-y-2">
-              <p><strong>Name:</strong> Mahnoor Tabasam</p>
-              <p><strong>Company:</strong> Mahnoor Tabasam LLC</p>
-              <p><strong>Phone:</strong> +923003727228</p>
-              <p><strong>Email:</strong> mahnoor tabasam1994@gmail.com</p>
-              <p><strong>Address:</strong> CBH-15, street no. 5 pathan colony Hyderabad.</p>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-24 h-24 relative rounded-full overflow-hidden border-2 border-[#fbcfe8] flex-shrink-0 shadow-md">
+                <Image 
+                  src="/assets/images/profile.jpg" 
+                  alt="Mahnoor Tabasam" 
+                  fill 
+                  className="object-cover" 
+                />
+              </div>
+              <div className="text-[#831843] text-sm space-y-2">
+                <p><strong>Name:</strong> Mahnoor Tabasam</p>
+                <p><strong>Company:</strong> Mahnoor Tabasam LLC</p>
+                <p><strong>Phone:</strong> +923003727228</p>
+                <p><strong>Email:</strong> mahnoor tabasam1994@gmail.com</p>
+                <p><strong>Address:</strong> CBH-15, street no. 5 pathan colony Hyderabad.</p>
+              </div>
             </div>
             <div className="flex gap-4">
               {/* Mock Social Icons */}
