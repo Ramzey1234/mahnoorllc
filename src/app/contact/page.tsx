@@ -124,6 +124,10 @@ export default function ContactPage() {
                 </h3>
                 <div className="space-y-4 text-[#831843]">
                   <div>
+                    <strong className="block text-[#500724] text-sm uppercase tracking-wider mb-1">Name</strong>
+                    <p>Mahnoor Tabasam</p>
+                  </div>
+                  <div>
                     <strong className="block text-[#500724] text-sm uppercase tracking-wider mb-1">Phone</strong>
                     <a href="tel:+923003727228" className="hover:text-[#db2777] transition-colors">+923003727228</a>
                   </div>
